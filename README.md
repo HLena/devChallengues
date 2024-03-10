@@ -15,4 +15,4 @@ This challenge is to create a simple blog card that includes an image, a tag, a 
 [Demo](https://65ed438ad83a6d2c24751520--cozy-lamington-251652.netlify.app/) |
 [Repo](https://github.com/HLena/devChallengues/tree/main/1-resposive-web/1-minimal-blog-card)
 
-![Minimal-blog-card](./1-resposive-web//1-minimal-blog-card/assets/minimal-blog-card.png)
+![Minimal-blog-card](./1-resposive-web-developer/1-minimal-blog-card/assets/minimal-blog-card.png)
