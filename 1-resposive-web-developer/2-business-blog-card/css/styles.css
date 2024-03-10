@@ -1,0 +1,111 @@
+:root {
+    --background: #F2F5F9;
+    --background-card: #FFFFFF;
+    --foreground-card: #111729;
+    --text-color: #677489;
+    --radious: 0.875rem;
+}
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add some styles for body*/
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    background-color: var(--background);
+    
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 420px;
+    height: 530px;
+    background-color: var(--background-card);
+    border-radius: var(--radious);
+}
+.card .card__image {
+    position: relative;
+}
+.card .card__image img{
+    width: 100%;
+    border-radius: var(--radious) var(--radious) 0 0;
+}
+
+.card .card__image .overlay{
+    display: block;
+    background: url("../assets/white-overlay.svg") no-repeat center / cover;
+    width: 100%;
+    height: 4.5rem;
+    position: absolute;
+    bottom: 0rem;
+}
+.card .card__details{
+    padding-inline: 1.875rem;
+}
+.card__details .title {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: var(--foreground-card);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+
+}
+.card__details .description{
+    color: var(--text-color);
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.card hr{
+    border-top: 1px solid var(--background);
+    margin-block: 20px;
+}
+.card .card__footer{
+    padding: 0 30px;
+    display: flex;
+    align-content: center;
+}
+
+.card__footer .avatar img{
+    border-radius: 2rem;
+    border: 3px solid var(--background);
+}
+.card__footer .author {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.author .author__name{
+    color: var(--foreground-card);
+    font-weight: 800;
+}
+
+.author .author__role{
+    color: var(--text-color);
+}
