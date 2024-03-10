@@ -25,7 +25,7 @@ This challenge is to create a business blog card that challenges you to use flex
 - CSS
 
 👉 [Challenge](https://devchallenges.io/challenge/business-blog-card) |
-[Demo](https://65ee41a6d83a6dcdc57513cf--stellar-granita-db6fcf.netlify.app/) |
+[Demo](https://65ee4691731082c2c695661c--benevolent-bombolone-c5240a.netlify.app/) |
 [Repo](https://github.com/HLena/devChallengues/tree/main/1-resposive-web/2-business-blog-card)
 
 ![Business-blog-card](./1-resposive-web-developer/2-business-blog-card/assets/business-blog-card.png)
